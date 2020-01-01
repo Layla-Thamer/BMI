@@ -1,0 +1,6 @@
+weight = input('Enter Weight(kg): ')
+Weight = float(weight)
+height = input('Enter Height(cm): ')
+Height = float(height)
+BMI = Weight/((Height/100)*(Height/100))
+print('your BMI = %0.3f' %BMI)
